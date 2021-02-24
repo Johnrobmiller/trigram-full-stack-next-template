@@ -1,10 +1,7 @@
 {
-  "name": "a-minimal-frontend-template-using-next",
-  "description": "This is a bare-bones minimal frontend template using React, Next.js, Tailwind, and Typescript.",
+  "name": "trigram-full-stack-next-template",
+  "description": "This is the total Trigram stack using Next.js",
   "version": "1.0.0",
-  "bin": {
-    "a-minimal-frontend-template-using-next": ""
-  },
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -27,11 +24,15 @@
   "author": "John Miller",
   "license": "ISC",
   "dependencies": {
+    "@types/recoil": "^0.0.1",
+    "lodash": "^4.17.21",
     "next": "10.0.7",
     "react": "17.0.1",
-    "react-dom": "17.0.1"
+    "react-dom": "17.0.1",
+    "recoil": "^0.1.2"
   },
   "devDependencies": {
+    "@types/lodash": "^4.14.168",
     "@types/node": "^14.14.31",
     "@types/react": "^17.0.2",
     "autoprefixer": "^10.2.4",

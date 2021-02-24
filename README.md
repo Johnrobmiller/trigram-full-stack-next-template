@@ -1,6 +1,23 @@
-This is a bare-bones minimal frontend template using React, Next.js, Tailwind, and Typescript. To install, use this command (replace "dir" with the name you want for your directory):
+This is the total Trigram stack using Next.js. I installed many packages and organized the folders and files a bit. There should be a "components" folder for React components, a "util" folder for utilities, and a "states" folder for Recoil states. Also, I included examples of each of the packages being used in the project since I thought that might be helpful.
 
-npx create-next-app --example https://github.com/Johnrobmiller/a-minimal-frontend-template-using-next dir
+The following packages were installed and verified to be working correctly. NOTE: if you all think of anything else you want added in this, just let me know and I'll push it to the github.
+ - Frontend
+   - React
+   - Tailwind (NOTE: PurgeCss is configured in the tailwind.config.js file)
+   - Recoil (WARNING: There is a peer-dependency problem with recoil and the newest version of react (i.e., the current version of recoil uses a version of React older than the one installed here). We will want to update recoil when they to release the update that fixes this.)
+   - Lodash
+   - some sort of form library (to be added in the future)
+ - Backend
+   - Next.js (NOTE: this is set up for SSR, not SSG)
+   - TODO: add Firebase (I will do this later in the future once learn how to use Firebase)
+ - Developer tools:
+   - Typescript
+   - Webpack (building automatically handled by Next.js)
+   - use Yarn to install new packages.
+
+Run this command to install (replace "dir" with the name you want for your new directory):
+
+npx create-next-app --example https://github.com/Johnrobmiller/trigram-full-stack-next-template dir
 
 Happy coding!!!
 

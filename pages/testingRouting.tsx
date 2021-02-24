@@ -1,6 +1,6 @@
 import React from 'react'
 
-// accessed via /testing
+// accessed via /testingRouting
 
 export default function Testing() {
   return (
