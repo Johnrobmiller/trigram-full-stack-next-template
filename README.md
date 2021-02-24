@@ -1,3 +1,7 @@
+Run this command to install (replace "dir" with the name you want for your new directory):
+
+--> npx create-next-app --example https://github.com/Johnrobmiller/trigram-full-stack-next-template dir
+
 This is the total Trigram stack using Next.js. I installed many packages and organized the folders and files a bit. There should be a "components" folder for React components, a "util" folder for utilities, and a "states" folder for Recoil states. Also, I included examples of each of the packages being used in the project since I thought that might be helpful.
 
 The following packages were installed and verified to be working correctly. NOTE: if you all think of anything else you want added in this, just let me know and I'll push it to the github.
@@ -14,10 +18,6 @@ The following packages were installed and verified to be working correctly. NOTE
    - Typescript
    - Webpack (building automatically handled by Next.js)
    - use Yarn to install new packages.
-
-Run this command to install (replace "dir" with the name you want for your new directory):
-
-npx create-next-app --example https://github.com/Johnrobmiller/trigram-full-stack-next-template dir
 
 Happy coding!!!
 
