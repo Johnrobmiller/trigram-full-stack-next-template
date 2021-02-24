@@ -8,7 +8,7 @@ The following packages were installed and verified to be working correctly. NOTE
  - Frontend
    - React
    - Tailwind (NOTE: PurgeCss is configured in the tailwind.config.js file)
-   - Recoil (WARNING: There is a peer-dependency problem with recoil and the newest version of react (i.e., the current version of recoil uses a version of React older than the one installed here). We will want to update recoil when they to release the update that fixes this.)
+   - Recoil
    - Lodash
    - some sort of form library (to be added in the future)
  - Backend
@@ -18,6 +18,8 @@ The following packages were installed and verified to be working correctly. NOTE
    - Typescript
    - Webpack (building automatically handled by Next.js)
    - use Yarn to install new packages.
+
+(NOTE: there was a peer dependency issue with React v17 and Recoil, which required React v16. So, I uninstalled React v17 and then installed React v16. Everything seems to be working fine for me, but if you are encountering any strange peer-dependency issues with React, this might be a clue as to why.)
 
 Happy coding!!!
 
