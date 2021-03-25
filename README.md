@@ -19,8 +19,6 @@ The following packages were installed and verified to be working correctly. NOTE
    - Webpack (building automatically handled by Next.js)
    - use Yarn to install new packages.
 
-(NOTE: there was a peer dependency issue with React v17 and Recoil, which required React v16. So, I uninstalled React v17 and then installed React v16. Everything seems to be working fine for me, but if you are encountering any strange peer-dependency issues with React, this might be a clue as to why.)
-
 Happy coding!!!
 
 (Below this line is the original README.md created using "create-next-app")
